@@ -710,6 +710,27 @@ form#commant_form div.field textarea.custom_field {
    transition: ease all 0.5s;
 }
 
+.blue_bt2 {
+    width: 25px;
+    height: 65px;
+    background: #0e24cb;
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 45px auto 0;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.blue_bt2:hover,
+.blue_bt2:focus {
+    background: #111;
+    color: #fff;
+    transition: ease all 0.5s;
+}
+
 .cours + h3 {
     margin-top: 30px;
     font-size: 28px;
@@ -720,7 +741,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .cours_timging_bg {
-    background: url("images/cours_bg.jpg");
+    background: #043438;
     min-height: 780px;
     width: 100%;
     margin-top: 50px;
