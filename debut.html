@@ -18,8 +18,12 @@
     function yesnoCheck() {
         if (document.getElementById('nonCheck').checked) {
             document.getElementById('ifNo').style.display = 'block';
+            document.getElementById('next').style.display = 'none';
+            document.getElementById('form').style.display = 'block';
         } else {
-            document.getElementById('ifNo').style.display = 'none';
+            document.getElementById('ifNo').style.display = 'block';
+            document.getElementById('next').style.display = 'block';
+            document.getElementById('form').style.display = 'none';
         }
     }
 </script>
@@ -87,13 +91,14 @@
             <div class="col-md-12 cours_timging_bg">
                 <div class="container">
                     <div class="time_table">
-                        <form action="index.html" method="post" style="margin-top: 50px">
-                            <p><input type="checkbox" value="test"/> Test</p>
-                            <p><input type="checkbox" value="test"/> Test</p>
-                            <p><input type="checkbox" value="test"/> Test</p>
-                            <p><input type="checkbox" value="test"/> Test</p>
-                            <input class="blue_bt" type="submit" value=" Valider "/>
+                        <form action="resume.php" method="post" style="margin-top: 50px" id="form" style="display: none">
+                            <p><input type="checkbox" value="test"/> Prendre la porte d'entrée</p>
+                            <p><input type="checkbox" value="test"/> Prendre du gel</p>
+                            <p><input type="checkbox" value="test"/> Enfoncer la porte sans les mains</p>
+                            <p><input type="checkbox" value="test"/> Venir avec des vêtements plus couvrants</p>
+                            <input class="blue_bt" type="submit" name="form1" value=" Valider "/>
                         </form>
+                        <a class="blue_bt" href="debut.html" id="next" style="display: none">Suivant</a>
                     </div>
                 </div>
             </div>
