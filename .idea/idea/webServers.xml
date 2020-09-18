@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aa09465b-127d-4892-a5e5-2db2b3124fb1" name="ap" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/var/www/gci" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

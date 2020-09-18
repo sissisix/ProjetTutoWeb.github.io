@@ -1,15 +1,29 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body style="background-color: gainsboro">
-    <div style="margin: 0 auto;">
-        <video controls autoplay style="display: block; width: 75%; margin: 0 auto;"><source src="video/1_Debut_Bon.mp4" type="video/mp4"></video>
-    </div>
-</body>
-</html>-->
+<?php
+    $res = false;
+    $v = "video/1_Debut_Bon.mp4";
+    if (isset($_POST['form1'])) {
+        $v = "video/2_Cours_Entree.mp4";
+        $res = true;
+
+        if (isset($_POST['ppe'])) {
+            echo("ppe\n");
+        }
+
+        if (isset($_POST['pg'])) {
+            echo("pg\n");
+        }
+
+        if (isset($_POST['epsm'])) {
+            echo("epsm\n");
+        }
+
+        if (isset($_POST['vc'])) {
+            echo("vc\n");
+        }
+
+        setcookie("resume[form]", "form1_1");
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +35,7 @@
             document.getElementById('next').style.display = 'none';
             document.getElementById('form').style.display = 'block';
         } else {
-            document.getElementById('ifNo').style.display = 'block';
+            document.getElementById('ifNo').style.display = 'none';
             document.getElementById('next').style.display = 'block';
             document.getElementById('form').style.display = 'none';
         }
@@ -69,9 +83,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="about_img margin_top_30  text_align_center">
-                    <video controls autoplay style="display: block; width: 100%; margin: 0 auto;"><source src="video/1_Debut_Bon.mp4" type="video/mp4"></video>
+                    <video controls autoplay style="display: block; width: 100%; margin: 0 auto;"><source src="<?=$v?>" type="video/mp4"></video>
                 </div>
             </div>
+            <?php if(!$res): ?>
             <div style="margin: 0 auto;">
                 <label for="ouiCheck" style="color: #0e24cb; font-size: 25px; margin-right: 25px; ">Oui </label>
                 <input class="blue_bt2" type="radio" id="ouiCheck" name="yesno" onclick="yesnoCheck();">
@@ -79,6 +94,12 @@
                 <label for="nonCheck" style="color: #0e24cb; font-size: 25px"> Non </label>
                 <input class="blue_bt2" type="radio" id="nonCheck" name="yesno" onclick="yesnoCheck();">
             </div>
+            <div>
+                <a class="blue_bt" href="cours1.php" id="next" style="display: none">Suivante</a>
+            </div>
+            <?php else: ?>
+            <a class="blue_bt" href="resume.php">Suivant</a>
+            <?php endif; ?>
         </div>
     </div>
 </section>
@@ -91,14 +112,13 @@
             <div class="col-md-12 cours_timging_bg">
                 <div class="container">
                     <div class="time_table">
-                        <form action="resume.php" method="post" style="margin-top: 50px" id="form" style="display: none">
-                            <p><input type="checkbox" value="test"/> Prendre la porte d'entrée</p>
-                            <p><input type="checkbox" value="test"/> Prendre du gel</p>
-                            <p><input type="checkbox" value="test"/> Enfoncer la porte sans les mains</p>
-                            <p><input type="checkbox" value="test"/> Venir avec des vêtements plus couvrants</p>
+                        <form action="debut.php" method="post" style="margin-top: 50px" id="form" style="display: none">
+                            <p><input type="checkbox" name="ppe"/> Prendre la porte d'entrée</p>
+                            <p><input type="checkbox" name="pg"/> Prendre du gel</p>
+                            <p><input type="checkbox" name="epsm"/> Enfoncer la porte sans les mains</p>
+                            <p><input type="checkbox" name="vc"/> Venir avec des vêtements plus couvrants</p>
                             <input class="blue_bt" type="submit" name="form1" value=" Valider "/>
                         </form>
-                        <a class="blue_bt" href="debut.html" id="next" style="display: none">Suivant</a>
                     </div>
                 </div>
             </div>
