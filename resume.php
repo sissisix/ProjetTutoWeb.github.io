@@ -1,6 +1,29 @@
 <?php
     if(isset($_COOKIE['resume']['form'])){
         echo $_COOKIE['resume']['form'];
+        $seq = $_COOKIE['resume']['form'];
+
+        $dest = "index.html";
+
+        if($seq == "form1") {
+            $dest = "sequence2.php";
+        }
+
+        if($seq == "form2") {
+            $dest = "sequence3.php";
+        }
+
+        if($seq == "form3") {
+            $dest = "sequence4.php";
+        }
+
+        if($seq == "form4") {
+            $dest = "sequence5.php";
+        }
+
+        if($seq == "form5") {
+            $dest = "sequence6.php";
+        }
     }
 ?>
 
@@ -41,7 +64,7 @@
     <![endif]-->
 </head>
 <body id="home_page" class="home_page">
-<a class="blue_bt" href="cours1.php">Suivant</a>
+<a class="blue_bt" href="<?=$dest?>">Suivant</a>
 <div class="cpy">
     <div class="container">
         <div class="row">
