@@ -1,9 +1,16 @@
 <?php
     $res = false;
     $v = "video/1_BadRacc_BadGel.mp4";
+
     if (isset($_POST['form1'])) {
+        setcookie("resume[form]", "", time() - 3600);
+        setcookie("resume[form1_1]", "", time() - 3600);
+        setcookie("resume[form1_2]", "", time() - 3600);
+        setcookie("resume[form1_3]", "", time() - 3600);
+        setcookie("resume[form1_4]", "", time() - 3600);
+
         $res = true;
-        setcookie("resume[form]", "form1");
+        setcookie("resume[form]", "form1", time() + 3600);
 
         if (isset($_POST['ppe']) && isset($_POST['pg'])) {
             $v = "video/1_GoodRacc_GoodGel.mp4";
@@ -18,19 +25,19 @@
         }
 
         if (isset($_POST['ppe'])) {
-            setcookie("resume[form1_1]", "form1_1");
+            setcookie("resume[form1_1]", "form1_1", time() + 3600);
         }
 
         if (isset($_POST['pg'])) {
-            setcookie("resume[form1_2]", "form1_2");
+            setcookie("resume[form1_2]", "form1_2", time() + 3600);
         }
 
         if (isset($_POST['epsm'])) {
-            setcookie("resume[form1_3]", "form1_3");
+            setcookie("resume[form1_3]", "form1_3", time() + 3600);
         }
 
         if (isset($_POST['vc'])) {
-            setcookie("resume[form1_4]", "form1_4");
+            setcookie("resume[form1_4]", "form1_4", time() + 3600);
         }
     }
 ?>

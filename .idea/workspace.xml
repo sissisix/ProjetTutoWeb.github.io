@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="352807b1-61f4-4d8c-97f6-a80aa6b4ea3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/2_Ok.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/2_Ok.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/4_BadTousse_BadPartage.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/4_BadTousse_BadPartage.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/4_GoodTousse_BadPartage.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/4_GoodTousse_BadPartage.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/5_BadMasque_BadChaud.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/5_BadMasque_BadChaud.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/5_BadMasque_GoodChaud.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/5_BadMasque_GoodChaud.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/5_GoodMasque_BadChaud.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/5_GoodMasque_BadChaud.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/5_GoodMasque_GoodChaud.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/5_GoodMasque_GoodChaud.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/resume.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence1.php" beforeDir="false" afterPath="$PROJECT_DIR$/sequence1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence2.php" beforeDir="false" afterPath="$PROJECT_DIR$/sequence2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence3.php" beforeDir="false" afterPath="$PROJECT_DIR$/sequence3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence4.php" beforeDir="false" afterPath="$PROJECT_DIR$/sequence4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence5.php" beforeDir="false" afterPath="$PROJECT_DIR$/sequence5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence6.php" beforeDir="false" afterPath="$PROJECT_DIR$/sequence6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/3_GoodDistance_GoodGel.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/3_GoodDist_GoodGel.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sequence4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="16" selection-end-line="161" />
+            <state relative-caret-position="75">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -36,31 +37,79 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sequence5.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" selection-end-line="161" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sequence6.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sequence6.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="405">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#16;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#17;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#18;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#19;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#20;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#21;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#22;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#23;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#24;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6702#6728#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#p#25;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#26;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#27;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#28;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7646#7672#0#HTML" expanded="true" />
+                <element signature="e#7885#7903#0#HTML" expanded="true" />
+                <element signature="e#8218#8244#0#HTML" expanded="true" />
+                <element signature="e#8387#8405#0#HTML" expanded="true" />
+                <element signature="e#8605#8623#0#HTML" expanded="true" />
+                <element signature="e#8778#8804#0#HTML" expanded="true" />
+                <element signature="e#9015#9033#0#HTML" expanded="true" />
+                <element signature="e#9130#9156#0#HTML" expanded="true" />
+                <element signature="e#9107#9125#0#HTML" expanded="true" />
+                <element signature="e#9212#9238#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setcookie</find>
+      <find>GoodDist_</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,14 +120,14 @@
         <option value="$PROJECT_DIR$/cours1.html" />
         <option value="$PROJECT_DIR$/cours1.php" />
         <option value="$PROJECT_DIR$/debut.php" />
-        <option value="$PROJECT_DIR$/resume.php" />
+        <option value="$PROJECT_DIR$/end.php" />
         <option value="$PROJECT_DIR$/sequence1.php" />
         <option value="$PROJECT_DIR$/sequence2.php" />
         <option value="$PROJECT_DIR$/sequence3.php" />
         <option value="$PROJECT_DIR$/sequence4.php" />
         <option value="$PROJECT_DIR$/sequence5.php" />
         <option value="$PROJECT_DIR$/sequence6.php" />
-        <option value="$PROJECT_DIR$/end.php" />
+        <option value="$PROJECT_DIR$/resume.php" />
       </list>
     </option>
   </component>
@@ -101,11 +150,6 @@
             <path>
               <item name="gci" type="b2602c69:ProjectViewProjectNode" />
               <item name="gci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gci" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,7 +200,7 @@
       <workItem from="1600380564355" duration="3186000" />
       <workItem from="1600416917074" duration="5196000" />
       <workItem from="1600436260897" duration="7080000" />
-      <workItem from="1600512985435" duration="426000" />
+      <workItem from="1600512985435" duration="10472000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1600419384558</created>
@@ -179,14 +223,22 @@
       <option name="project" value="LOCAL" />
       <updated>1600443941914</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modif vidéos sous titre">
+      <created>1600513430558</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600513430558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15888000" />
+    <option name="totallyTimeSpent" value="25934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="993" y="25" width="927" height="1053" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.323496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -217,85 +269,104 @@
     <MESSAGE value="php" />
     <MESSAGE value="Vidéos dans l'ordre, page séquence faite" />
     <MESSAGE value="Ajout vidéos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout vidéos" />
+    <MESSAGE value="Modif vidéos sous titre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif vidéos sous titre" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/end.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/sequence1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sequence2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequence3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/end.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sequence4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-end-line="161" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sequence5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" selection-end-line="161" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sequence6.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#16;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#17;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#18;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#19;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#20;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#21;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#22;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#23;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#24;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6702#6728#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#25;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#26;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#27;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#28;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7646#7672#0#HTML" expanded="true" />
+            <element signature="e#7885#7903#0#HTML" expanded="true" />
+            <element signature="e#8218#8244#0#HTML" expanded="true" />
+            <element signature="e#8387#8405#0#HTML" expanded="true" />
+            <element signature="e#8605#8623#0#HTML" expanded="true" />
+            <element signature="e#8778#8804#0#HTML" expanded="true" />
+            <element signature="e#9015#9033#0#HTML" expanded="true" />
+            <element signature="e#9130#9156#0#HTML" expanded="true" />
+            <element signature="e#9107#9125#0#HTML" expanded="true" />
+            <element signature="e#9212#9238#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

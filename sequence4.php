@@ -1,38 +1,45 @@
 <?php
-$res = false;
-$v = "video/4_BadTousse_BadPartage.mp4";
-if (isset($_POST['form4'])) {
-    $res = true;
-    setcookie("resume[form]", "form4");
+    $res = false;
+    $v = "video/4_BadTousse_BadPartage.mp4";
 
-    if (isset($_POST['ec']) && isset($_POST['ap'])) {
-        $v = "video/4_GoodTousse_GoodPartage.mp4";
-    }
+    if (isset($_POST['form4'])) {
+        setcookie("resume[form]", "", time() - 3600);
+        setcookie("resume[form4_1]", "", time() - 3600);
+        setcookie("resume[form4_2]", "", time() - 3600);
+        setcookie("resume[form4_3]", "", time() - 3600);
+        setcookie("resume[form4_4]", "", time() - 3600);
 
-    if (isset($_POST['ec']) && !isset($_POST['ap'])) {
-        $v = "video/4_GoodTousse_BadPartage.mp4";
-    }
+        $res = true;
+        setcookie("resume[form]", "form4", time() + 3600);
 
-    if (!isset($_POST['ec']) && isset($_POST['ap'])) {
-        $v = "video/4_BadTousse_GoodPartage.mp4";
-    }
+        if (isset($_POST['ec']) && isset($_POST['ap'])) {
+            $v = "video/4_GoodTousse_GoodPartage.mp4";
+        }
 
-    if (isset($_POST['ec'])) {
-        setcookie("resume[form4_1]", "form4_1");
-    }
+        if (isset($_POST['ec']) && !isset($_POST['ap'])) {
+            $v = "video/4_GoodTousse_BadPartage.mp4";
+        }
 
-    if (isset($_POST['ap'])) {
-        setcookie("resume[form4_2]", "form4_2");
-    }
+        if (!isset($_POST['ec']) && isset($_POST['ap'])) {
+            $v = "video/4_BadTousse_GoodPartage.mp4";
+        }
 
-    if (isset($_POST['rp'])) {
-        setcookie("resume[form4_3]", "form4_3");
-    }
+        if (isset($_POST['ec'])) {
+            setcookie("resume[form4_1]", "form4_1", time() + 3600);
+        }
 
-    if (isset($_POST['mm'])) {
-        setcookie("resume[form4_4]", "form4_4");
+        if (isset($_POST['ap'])) {
+            setcookie("resume[form4_2]", "form4_2", time() + 3600);
+        }
+
+        if (isset($_POST['rp'])) {
+            setcookie("resume[form4_3]", "form4_3", time() + 3600);
+        }
+
+        if (isset($_POST['mm'])) {
+            setcookie("resume[form4_4]", "form4_4", time() + 3600);
+        }
     }
-}
 ?>
 
 <!DOCTYPE html>

@@ -1,26 +1,33 @@
 <?php
-$res = false;
-$v = "video/2_Ok.mp4";
-if (isset($_POST['form2'])) {
-    $res = true;
-    setcookie("resume[form]", "form2");
+    $res = false;
+    $v = "video/2_Ok.mp4";
 
-    if (isset($_POST['tc'])) {
-        setcookie("resume[form2_1]", "form2_1");
-    }
+    if (isset($_POST['form2'])) {
+        setcookie("resume[form]", "", time() - 3600);
+        setcookie("resume[form2_1]", "", time() - 3600);
+        setcookie("resume[form2_2]", "", time() - 3600);
+        setcookie("resume[form2_3]", "", time() - 3600);
+        setcookie("resume[form2_4]", "", time() - 3600);
 
-    if (isset($_POST['ec'])) {
-        setcookie("resume[form2_2]", "form2_2");
-    }
+        $res = true;
+        setcookie("resume[form]", "form2", time() + 3600);
 
-    if (isset($_POST['pg'])) {
-        setcookie("resume[form2_3]", "form2_3");
-    }
+        if (isset($_POST['tc'])) {
+            setcookie("resume[form2_1]", "form2_1", time() + 3600);
+        }
 
-    if (isset($_POST['em'])) {
-        setcookie("resume[form2_4]", "form2_4");
+        if (isset($_POST['ec'])) {
+            setcookie("resume[form2_2]", "form2_2", time() + 3600);
+        }
+
+        if (isset($_POST['pg'])) {
+            setcookie("resume[form2_3]", "form2_3", time() + 3600);
+        }
+
+        if (isset($_POST['em'])) {
+            setcookie("resume[form2_4]", "form2_4", time() + 3600);
+        }
     }
-}
 ?>
 
 <!DOCTYPE html>
