@@ -131,11 +131,11 @@
                 <div class="container">
                     <div class="time_table">
                         <form action="sequence1.php" method="post" style="margin-top: 50px; display: none;" id="form">
-                            <p><input type="checkbox" name="ppe"> Prendre la porte d'entrée</p>
-                            <p><input type="checkbox" name="pg"/> Prendre du gel</p>
-                            <p><input type="checkbox" name="epsm"/> Enfoncer la porte sans les mains</p>
-                            <p><input type="checkbox" name="vc"/> Venir avec des vêtements plus couvrants</p>
-                            <input class="blue_bt" type="submit" name="form1" value=" Valider "/>
+                            <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="ppe"> Prendre la porte d'entrée</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="pg"/> Prendre du gel</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="epsm"/> Enfoncer la porte sans les mains</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="vc"/> Venir avec des vêtements plus couvrants</label>
+                            <br /><br /><input class="blue_bt" type="submit" name="form1" value=" Valider "/>
                         </form>
                     </div>
                 </div>

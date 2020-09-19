@@ -131,10 +131,10 @@
                 <div class="container">
                     <div class="time_table">
                         <form action="sequence4.php" method="post" style="margin-top: 50px; display: none;" id="form">
-                            <p><input type="checkbox" name="ec"> Eternuer dans son coude</p>
-                            <p><input type="checkbox" name="ap"/> Ne pas accepter son plat</p>
-                            <p><input type="checkbox" name="rp"/> Rendre le plat au self</p>
-                            <p><input type="checkbox" name="mm"/> Manger avec le masque</p>
+                            <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="ec"> Eternuer dans son coude</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="ap"/> Ne pas accepter son plat</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="rp"/> Rendre le plat au self</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="mm"/> Manger avec le masque</label>
                             <input class="blue_bt" type="submit" name="form4" value=" Valider "/>
                         </form>
                     </div>

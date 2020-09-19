@@ -131,10 +131,10 @@
                 <div class="container">
                     <div class="time_table">
                         <form action="sequence5.php" method="post" style="margin-top: 50px; display: none;" id="form">
-                            <p><input type="checkbox" name="mr"> Remettre son masque avant de rentrer</p>
-                            <p><input type="checkbox" name="rt"/> Respirer dans son t-shirt</p>
-                            <p><input type="checkbox" name="rd"/> Aller dehors respirer</p>
-                            <p><input type="checkbox" name="mf"/> Retourner son masque pour la fraicheur</p>
+                            <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="mr"> Remettre son masque avant de rentrer</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="rt"/> Respirer dans son t-shirt</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="rd"/> Aller dehors respirer</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="mf"/> Retourner son masque pour la fraicheur</label>
                             <input class="blue_bt" type="submit" name="form5" value=" Valider "/>
                         </form>
                     </div>

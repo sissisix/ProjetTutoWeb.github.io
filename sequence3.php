@@ -126,9 +126,9 @@
                 <div class="container">
                     <div class="time_table">
                         <form action="sequence3.php" method="post" style="margin-top: 50px; display: none;" id="form">
-                            <p><input type="checkbox" name="rg"> Il aurait du reprendre du gel</p>
-                            <p><input type="checkbox" name="aa"/> Il ne faut pas s'approcher autant des autres</p>
-                            <p><input type="checkbox" name="as"/> Ne pas aller au self</p>
+                            <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="rg"> Il aurait du reprendre du gel</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="aa"/> Il ne faut pas s'approcher autant des autres</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="as"/> Ne pas aller au self</label>
                             <input class="blue_bt" type="submit" name="form3" value=" Valider "/>
                         </form>
                     </div>

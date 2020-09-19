@@ -119,10 +119,10 @@
                 <div class="container">
                     <div class="time_table">
                         <form action="sequence2.php" method="post" style="margin-top: 50px; display: none;" id="form">
-                            <p><input type="checkbox" name="tc"> Ne pas travailler avec son camarade</p>
-                            <p><input type="checkbox" name="ec"/> Eternuer dans son coude</p>
-                            <p><input type="checkbox" name="pg"/> Il est préférable de porter des gants</p>
-                            <p><input type="checkbox" name="em"/> Il n'aurait pas du enlever son masque pour boire</p>
+                            <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="tc"> Ne pas travailler avec son camarade</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="ec"/> Eternuer dans son coude</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="pg"/> Il est préférable de porter des gants</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="em"/> Il n'aurait pas du enlever son masque pour boire</label>
                             <input class="blue_bt" type="submit" name="form2" value=" Valider "/>
                         </form>
                     </div>

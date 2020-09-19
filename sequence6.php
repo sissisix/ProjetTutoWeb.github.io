@@ -120,10 +120,10 @@
                 <div class="container">
                     <div class="time_table">
                         <form action="sequence6.php" method="post" style="margin-top: 50px; display: none;" id="form">
-                            <p><input type="checkbox" name="sm"> Ne pas serrer la main</p>
-                            <p><input type="checkbox" name="pp"/> Partir à pied</p>
-                            <p><input type="checkbox" name="pa"/> Partir sans dire aurevoir</p>
-                            <p><input type="checkbox" name="ac"/> Ne pas installer d'antenne 5G, elles propagent le covid-19 !!!</p>
+                            <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="sm"> Ne pas serrer la main</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="pp"/> Partir à pied</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="pa"/> Partir sans dire aurevoir</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="ac"/> Ne pas installer d'antenne 5G, elles propagent le covid-19 !!!</label>
                             <input class="blue_bt" type="submit" name="form6" value=" Valider "/>
                         </form>
                     </div>
