@@ -41,6 +41,11 @@
 <html lang="fr">
 
 <script type="text/javascript">
+    window.history.forward();
+    function noBack() {
+        window.history.forward();
+    }
+
     function yesCheck() {
         document.getElementById('ifNo').style.display = 'none';
         document.getElementById('next').style.display = 'block';
@@ -128,7 +133,7 @@
                         <form action="sequence3.php" method="post" style="margin-top: 50px; display: none;" id="form">
                             <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="rg"> Il aurait du reprendre du gel</label>
                             <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="aa"/> Il ne faut pas s'approcher autant des autres</label>
-                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="as"/> Ne pas aller au self</label>
+                            <br /><br />te <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="as"/> Ne pas aller au self</label>
                             <input class="blue_bt" type="submit" name="form3" value=" Valider "/>
                         </form>
                     </div>

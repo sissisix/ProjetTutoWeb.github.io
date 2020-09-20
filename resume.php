@@ -33,6 +33,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<script type="text/javascript">
+    window.history.forward();
+    function noBack() {
+        window.history.forward();
+    }
+</script>
+
 <head>
     <!-- Basic -->
     <meta charset="utf-8">

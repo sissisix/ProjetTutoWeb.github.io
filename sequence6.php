@@ -35,6 +35,11 @@
 <html lang="fr">
 
 <script type="text/javascript">
+    window.history.forward();
+    function noBack() {
+        window.history.forward();
+    }
+
     function yesCheck() {
         document.getElementById('ifNo').style.display = 'none';
         document.getElementById('next').style.display = 'block';
