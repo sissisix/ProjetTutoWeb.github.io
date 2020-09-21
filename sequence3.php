@@ -109,6 +109,7 @@
             </div>
             <?php if(!$res): ?>
                 <div style="margin: 0 auto;">
+                    <br /><p style="font-size: 25px">Trouvez vous que toutes les règles du covid ont été respecté ?</p>
                     <input class="blue_bt" type="button" id="ouiCheck" value="oui" name="yesno" onclick="yesCheck();">
                     <input class="blue_bt" type="button" id="nonCheck" value="non" name="yesno" onclick="noCheck();">
                 </div>
@@ -133,7 +134,7 @@
                         <form action="sequence3.php" method="post" style="margin-top: 50px; display: none;" id="form">
                             <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="rg"> Il aurait du reprendre du gel</label>
                             <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="aa"/> Il ne faut pas s'approcher autant des autres</label>
-                            <br /><br />te <label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="as"/> Ne pas aller au self</label>
+                            <br /><br /><label style="color: dimgrey; font-size: 18px;"><input type="checkbox" name="as"/> Ne pas aller au self</label>
                             <input class="blue_bt" type="submit" name="form3" value=" Valider "/>
                         </form>
                     </div>

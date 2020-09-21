@@ -102,6 +102,7 @@
             </div>
             <?php if(!$res): ?>
                 <div style="margin: 0 auto;">
+                    <br /><p style="font-size: 25px">Trouvez vous que toutes les règles du covid ont été respecté ?</p>
                     <input class="blue_bt" type="button" id="ouiCheck" value="oui" name="yesno" onclick="yesCheck();">
                     <input class="blue_bt" type="button" id="nonCheck" value="non" name="yesno" onclick="noCheck();">
                 </div>
